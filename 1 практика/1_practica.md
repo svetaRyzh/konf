@@ -1,4 +1,4 @@
 Задание 5
-nano reg.sh
+'''nano reg.sh
 chmod +x reg.sh
-./reg.sh (исполняемый скрипт)
+./reg.sh (исполняемый скрипт)'''
