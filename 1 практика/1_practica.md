@@ -125,9 +125,15 @@ done
 
 # Задание 8
 Написать программу, которая находит все файлы в данном каталоге с расширением, указанным в качестве аргумента и архивирует все эти файлы в архив tar.
-```nano archi.sh```
-```chmod +x archi.sh```
-```./archi.sh txt```
+```
+nano archi.sh
+```
+```
+chmod +x archi.sh
+```
+```
+./archi.sh txt
+```
 В файле archi.sh
 ```
 #!/bin/bash
@@ -154,11 +160,21 @@ echo "Файлы с расширением .$extension были архивиро
 
 # Задание 9
 Написать программу, которая заменяет в файле последовательности из 4 пробелов на символ табуляции. Входной и выходной файлы задаются аргументами.
-```echo -e "Здесь    4 пробела.\nЗдесь кстати    тоже." > input.txt```
-```touch output.txt```
-```nano changer.sh```
-```chmod +x changer.sh```
-```chmod +x changer.sh```
+```
+echo -e "Здесь    4 пробела.\nЗдесь кстати    тоже." > input.txt
+```
+```
+touch output.txt
+```
+```
+nano changer.sh
+```
+```
+chmod +x changer.sh
+```
+```
+chmod +x changer.sh
+```
 В файле changer.sh
 ```
 #!/bin/bash
@@ -184,11 +200,21 @@ echo "Замены произведены. Результат записан в 
 
 # Задание 10
 Написать программу, которая выводит названия всех пустых текстовых файлов в указанной директории. Директория передается в программу параметром.
-```mkdir new_dir```
-```touch new_dir/file1.txt new_dir/file2.txt new_dir/file3.txt```
-```nano empty.sh```
-```chmod +x empty.sh```
-```./empty.sh new_dir```
+```
+mkdir new_dir
+```
+```
+touch new_dir/file1.txt new_dir/file2.txt new_dir/file3.txt
+```
+```
+nano empty.sh
+```
+```
+chmod +x empty.sh
+```
+```
+./empty.sh new_dir
+```
 
 В файле empty.sh
 ```
