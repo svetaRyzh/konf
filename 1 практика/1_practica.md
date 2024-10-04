@@ -84,15 +84,20 @@ int main(){
 
 # Задание 7
 Написать программу для нахождения файлов-дубликатов (имеющих 1 или более копий содержимого) по заданному пути (и подкаталогам). 
-```mkdir new_dir (директория)
 ```
-```move text1.txt text2.txt text3.txt (директория)
+mkdir new_dir (директория)
 ```
-```nano finder.sh
 ```
-```chmod +x finder.sh
+move text1.txt text2.txt text3.txt (директория)
 ```
-```./finder.sh (директория)
+```
+nano finder.sh
+```
+```
+chmod +x finder.sh
+```
+```
+./finder.sh (директория)
 ```
 В файле finder.sh
 ```
